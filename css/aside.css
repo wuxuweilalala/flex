@@ -1,0 +1,8 @@
+.client .container {
+  display: flex;
+  justify-content: center;
+}
+.client img {
+  display: block;
+
+}

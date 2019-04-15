@@ -1,0 +1,21 @@
+
+
+.service > ul {
+display: flex;
+margin-top: 80px;
+}   
+.service ul > li {
+margin : 30px;
+}
+.service ul > li > h3{
+margin : 10px;
+}
+.service ul > li > p{
+margin-top: 10px;
+font-size: 14px;
+line-height: 1.75;
+margin: 0 0 10px;
+}
+.service .icon {
+font-size:  60px;
+}

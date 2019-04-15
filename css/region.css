@@ -1,0 +1,31 @@
+.family {
+  display: flex;
+  flex-wrap: wrap;
+}
+.family img {
+  height: 180px;
+  width: 310px;
+}
+.family figure {
+  margin: 10px;
+  height: 250px;
+}
+.family img {
+  display: block; /*解决img下面的缝隙问题*/
+  height: 180px;    
+}
+.family .wrap {
+  background: white;
+  margin: 0;
+  padding: 5px;
+}
+
+.family .wrap figcaption {
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.family .wrap p {
+  color: #666;
+  margin-top: 10px;
+}

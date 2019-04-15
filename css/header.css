@@ -1,0 +1,65 @@
+html,body {
+  height: 100%;
+}
+header {
+  
+  height: 100%;
+  background: url(https://desk-fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/07/ChMkJ1bKy7WIPSjdABNM8I5C8FUAALIuQMBT9QAE00I778.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  color: #f7ba3e;
+  font-size: 32px;
+}
+header ul {
+  display: flex;       
+}
+header ul > li {
+  margin: 10px;
+}
+header ul > li > a {
+  color: #fff;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 16px;
+}
+header ul > li > a:hover{
+  background: #f7ba3e;
+}
+header .intro {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+header  h1 {
+  color: #fff;
+  font-size: 32px;
+}
+header h2 {
+  color: #fff;
+  font-size: 46px;
+  margin-top: 20px;
+}
+.button {
+  color: #fff;
+  display: inline-block;
+  font-size: 24px;
+  margin-top: 80px;
+  background-color: #f7ba3e;
+  padding: 10px 20px;
+  opacity: 0.6;
+  border-radius: 4px;
+}
+.button:hover {
+  opacity: 1;
+}

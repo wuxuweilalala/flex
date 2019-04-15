@@ -1,0 +1,43 @@
+/*odd代表奇数，even代表偶数*/
+section .character img {  
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid lightblue;
+}
+.character > li::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.character > li {
+  position: relative;
+  margin-top: 40px;
+}
+section .character > li:nth-child(odd) {
+  padding-right: calc(50% - 100px);
+}
+.character > li:nth-child(odd) img{
+  float: right;
+}
+.character > li:nth-child(even) img {
+  float: left;
+}
+section .character > li:nth-child(even) {
+  padding-left: calc(50% - 100px);
+  text-align: left;
+}
+section .character > li::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 197px;
+  margin-left: 0px;
+  display: inline-block;
+  height: 60px;
+  width: 4px;
+  background-color: lightblue;
+}
+section .character > li:last-child::before {
+  height: 0;
+}

@@ -1,0 +1,35 @@
+footer .container {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;  
+}
+footer .iconfont {
+  display: flex;
+  align-items: center;  
+}
+
+footer .iconfont a {
+  margin: 10px;
+  display: block;
+  background-color: #222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+  outline: 0;
+  transition: all .3s;
+  text-align: center;
+}
+footer .iconfont a:hover {
+  background: #fed136;
+}
+footer .pp {
+  display: flex; 
+}
+footer .pp  a {
+  color: #fed136;
+  margin: 5px;
+}
